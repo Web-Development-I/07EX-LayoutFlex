@@ -1,5 +1,9 @@
-* {
+html {
   box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
 }
 
 /* Opmaak van de boxes */
@@ -10,4 +14,3 @@
 }
 
 /* Plaats je oplossing hieronder */
-
